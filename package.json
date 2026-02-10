@@ -1,5 +1,5 @@
 {
-  "name": "clovernight-test-scaffold",
+  "name": "weather-dashboard-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,14 +8,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.563.0",
     "next": "^15.0.0",
+    "radix-ui": "^1.4.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
+    "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
-    "tailwindcss": "^4.0.0"
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0"
   }
 }

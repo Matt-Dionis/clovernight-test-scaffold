@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color palette based on Figma design */
+  --color-dark-bg: oklch(0.1 0 0);
+  --color-dark-card: oklch(0.15 0 0);
+  --color-dark-card-hover: oklch(0.18 0 0);
+  --color-light-blue: oklch(0.85 0.05 240);
+  --color-blue-primary: oklch(0.75 0.1 240);
+  --color-text-primary: oklch(0.98 0 0);
+  --color-text-secondary: oklch(0.6 0 0);
+  --color-text-muted: oklch(0.5 0 0);
+
+  /* Border radius */
+  --radius-card: 1rem;
+  --radius-button: 0.625rem;
+  --radius-input: 0.625rem;
+
+  /* Spacing (8pt base) */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: oklch(0.15 0 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: oklch(0.3 0 0);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(0.4 0 0);
+}
+
+/* Base styles */
+body {
+  background-color: oklch(0.1 0 0);
+  color: oklch(0.98 0 0);
+}
